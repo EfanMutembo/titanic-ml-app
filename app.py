@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 
 import numpy as np
 import pandas as pd
-from joblib import load
+
 
 with open('rf_model.pkl', 'rb') as file:
     model = pickle.load(file)
