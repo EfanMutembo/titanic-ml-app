@@ -1,4 +1,4 @@
-sklearn 1.2.2
+sklearn version= 1.2.2
 numpy
 pandas
 streamlit
