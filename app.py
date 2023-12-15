@@ -101,7 +101,7 @@ def second_page(prediction,proba,name):
     else:
         st.subheader(f"{name} You Died :skull: with {proba_positive}% chance of survival")
         #add fun animation
-        st.image("https://media.giphy.com/media/ZiHgApcM5ij1S/giphy.gif", caption='Survived', use_column_width=True)
+        st.image("https://media.giphy.com/media/ZiHgApcM5ij1S/giphy.gif", caption='Died', use_column_width=True)
 
         # Explanation and Kaggle link
     st.markdown("## How it Works")
